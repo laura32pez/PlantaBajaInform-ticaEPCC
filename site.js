@@ -6,7 +6,7 @@ if (canvas && canvas.getContext) {
 
 	var ctx = canvas.getContext("2d");
 	var img = new Image();
-	img.src = "AÑADIR URL DE LA IMAGEN DEL PLANO"
+	img.src = "https://raw.githubusercontent.com/laura32pez/PlantaBajaInformaticaEPCC/master/PlantaBajaEPCC.jpg"
 	
 
 	img.onload = function () {
@@ -19,7 +19,7 @@ const header = document.querySelector('header');
 const section = document.querySelector('section');
 
 
-const requestURL = 'AÑADIR URL DEL ARCHIVO JSON';
+const requestURL = 'https://raw.githubusercontent.com/laura32pez/PlantaBajaInformaticaEPCC/master/PlantaBajaEPCC.json';
 const request = new XMLHttpRequest();
 request.open('GET', requestURL);
 
